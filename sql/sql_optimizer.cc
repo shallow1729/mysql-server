@@ -294,6 +294,9 @@ bool JOIN::optimize(bool finalize_access_paths) {
   // to prevent double initialization on EXPLAIN
   if (optimized) return false;
 
+  THD_STAGE_INFO(thd, stage_hogehoge);
+  std::this_thread::sleep_for(std::chrono::seconds(5));
+
   DEBUG_SYNC(thd, "before_join_optimize");
 
   THD_STAGE_INFO(thd, stage_optimizing);

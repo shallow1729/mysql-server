@@ -12046,6 +12046,7 @@ PSI_stage_info stage_making_temp_file_append_before_load_data= { 0, "Making temp
 PSI_stage_info stage_manage_keys= { 0, "manage keys", 0, PSI_DOCUMENT_ME};
 PSI_stage_info stage_source_has_sent_all_binlog_to_replica= { 0, "Source has sent all binlog to replica; waiting for more updates", 0, PSI_DOCUMENT_ME};
 PSI_stage_info stage_opening_tables= { 0, "Opening tables", 0, PSI_DOCUMENT_ME};
+PSI_stage_info stage_hogehoge= {0, "hogehogehogehoge", 0, PSI_DOCUMENT_ME};
 PSI_stage_info stage_optimizing= { 0, "optimizing", 0, PSI_DOCUMENT_ME};
 PSI_stage_info stage_preparing= { 0, "preparing", 0, PSI_DOCUMENT_ME};
 PSI_stage_info stage_purging_old_relay_logs= { 0, "Purging old relay logs", 0, PSI_DOCUMENT_ME};
@@ -12149,6 +12150,7 @@ PSI_stage_info *all_server_stages[] = {
     &stage_manage_keys,
     &stage_source_has_sent_all_binlog_to_replica,
     &stage_opening_tables,
+    &stage_hogehoge,
     &stage_optimizing,
     &stage_preparing,
     &stage_purging_old_relay_logs,

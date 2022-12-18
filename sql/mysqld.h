@@ -583,6 +583,7 @@ extern PSI_stage_info stage_making_temp_file_append_before_load_data;
 extern PSI_stage_info stage_manage_keys;
 extern PSI_stage_info stage_source_has_sent_all_binlog_to_replica;
 extern PSI_stage_info stage_opening_tables;
+extern PSI_stage_info stage_hogehoge;
 extern PSI_stage_info stage_optimizing;
 extern PSI_stage_info stage_preparing;
 extern PSI_stage_info stage_purging_old_relay_logs;
